@@ -248,6 +248,10 @@ section.success a.active {
   max-width:400px;
 }
 
+.img-circle{
+  max-width:200px;
+}
+
 #portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 345px;
