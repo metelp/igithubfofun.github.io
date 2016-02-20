@@ -6,6 +6,7 @@
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 document.domain = "http://igithubfofun.github.io/";
+X-Frame-Options = 'ALLOW';
 $(function() {
     $('body').on('click', '.page-scroll a', function(event) {
         var $anchor = $(this);
