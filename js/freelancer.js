@@ -5,7 +5,7 @@
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
-document.domain = "https://";
+// document.domain = "https://";
 
 $(function() {
     $('body').on('click', '.page-scroll a', function(event) {
