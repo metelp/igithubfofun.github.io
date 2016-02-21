@@ -23,7 +23,12 @@ $(function() {
             $.ajax({
                 url: "//formspree.io/metelpatel@gmail.com",
                 method: "POST",
-                data: {message: "hello!"},
+                data: {
+                    name: name,
+                    phone: phone,
+                    email: email,
+                    message: message
+                },
                 dataType: "json",
                 success: function() {
                     // Enable button & show success message
